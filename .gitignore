@@ -1,0 +1,10 @@
+# Operating System
+.DS_Store
+Thumbs.dll
+
+# Environment
+.env
+
+# Dependencies
+node_modules
+.wrangler
