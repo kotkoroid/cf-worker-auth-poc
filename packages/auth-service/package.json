@@ -5,7 +5,7 @@
 		"dev": "wrangler dev",
 		"types": "wrangler types",
 		"db:generate": "drizzle-kit generate",
-		"db:migrate": "wrangler d1 migrations apply d1_service_auth --local"
+		"db:migrate": "wrangler d1 migrations apply auth_d1 --local"
 	},
 	"dependencies": {
 		"@std/uuid": "npm:@jsr/std__uuid",
