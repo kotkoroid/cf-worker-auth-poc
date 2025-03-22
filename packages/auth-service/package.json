@@ -1,0 +1,16 @@
+{
+	"name": "auth-service",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "wrangler dev",
+		"types": "wrangler types",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "wrangler d1 migrations apply d1_service_auth --local"
+	},
+	"dependencies": {
+		"@std/uuid": "npm:@jsr/std__uuid",
+		"drizzle-kit": "^0.30.5",
+		"drizzle-orm": "^0.41.0",
+		"jose": "^6.0.10"
+	}
+}

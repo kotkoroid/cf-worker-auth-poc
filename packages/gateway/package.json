@@ -1,0 +1,12 @@
+{
+  "name": "gateway",
+ 	"version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+		"types": "wrangler types"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "hono": "^4.7.5"
+  }
+}
