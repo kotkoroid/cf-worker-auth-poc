@@ -3,7 +3,8 @@
  	"version": "1.0.0",
   "scripts": {
     "dev": "wrangler dev",
-		"types": "wrangler types"
+    "typecheck": "tsc --noEmit",
+	"types": "wrangler types"
   },
   "dependencies": {
     "@types/node": "^22.13.11",

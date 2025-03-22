@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "wrangler dev",
+		"typecheck": "tsc --noEmit",
 		"types": "wrangler types",
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "wrangler d1 migrations apply auth_d1 --local"

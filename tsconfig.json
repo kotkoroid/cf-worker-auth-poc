@@ -7,8 +7,8 @@
 		"resolveJsonModule": true,
 		"types": [
   		"node",
-			"./packages/gateway/worker-configuration.d.ts",
-			"./packages/auth-service/worker-configuration.d.ts",
+			"gateway/worker-configuration.d.ts",
+			"auth-service/worker-configuration.d.ts",
 		],
 		"allowJs": true,
 		"checkJs": false,
