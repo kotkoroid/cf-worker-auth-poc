@@ -1,1 +1,1 @@
-# cf-worker-auth-poc
+# cf-workers-poc

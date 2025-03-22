@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "cf-worker-auth-poc",
+      "name": "cf-workers-poc",
       "dependencies": {
         "@cloudflare/vitest-pool-workers": "^0.8.4",
         "typescript": "^5.8.2",
